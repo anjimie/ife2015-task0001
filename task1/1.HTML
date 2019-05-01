@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>task0001</title>
+        <link rel="stylesheet" type="text/css" href="1.css" />
+        </head>
+<body>
+    <h1>MyGithubAccountName</h1>
+    <ul>
+        <li>
+            <a href="*">Homepage</a>
+        </li>
+        <li>
+            <a href="*">Blog</a>
+        </li>
+    </ul>
+    <h2>这是二级标题</h2>
+    <p>这是我的第一个HTML页面，这里有一个文字段落</p>
+    <img src="D:\课件\源码及练习\京东\images\header.jpg" alt="jingdong">
+    <div class="circle">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="main"></div>
+        <div class="div5"></div>
+        <div class="div4"></div>
+        <div class="div3"></div>
+        <div class="div2"></div>
+        <div class="div1"></div>
+    </div>
+
+    <!--实现一个背景色为红色、宽度为960px的<DIV>在浏览器中居中-->
+        <!--方法一-->
+        <div id="div-align">
+                <div id="center1"></div>
+                <br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <!--方法二-->
+        <div id="center2"></div>
+        <!--方法三：加上垂直定位,margin
+        子元素 div 绝对定位
+        父元素需要被定位
+        子元素 top、bottom、left、right 四个位置值均为 0
+        子元素 margin: auto;-->
+        <div id="center3">
+            <div id="center31"></div>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <!--方法四，css3的flex
+        父元素 display 属性设为 flex
+        垂直布局的属性是 align-items，设为 center 时便垂直居中
+        水平布局的属性是 justify-content，设为 center 时水平居中
+        子元素弹性居中，增加子元素也不会有影响
+        -->
+        <div id="center4">
+            <div id="center41"></div>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+    <!--实现一个两列布局，左侧部分宽度固定，右边部分宽度随浏览器的变化而自适应变化-->
+    <!--方法一：绝对定位-->
+    <div id="absolute-column">
+        <div id="a1">a</div>
+        <div id="b1">b</div>
+        <div id="c1">c</div>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <!--方法二：浮动-->
+    <div id="float-column"></div>
+        <div id="a2">a</div>
+        <div id="b2">b</div>
+        <div id="c2">c</div>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <!--用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化-->
+    <!--方法一-->
+    <div id="three"></div>
+        <div id="a3">a</div>
+        <div id="c3">c</div>
+        <div id="b3">b</div>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>    
+    <!--方法二-->
+    <div id="three"></div>
+        <div id="a4">a</div>
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>        
+
+    <!--实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 -->
+    <!--方法一：左浮动-->
+    <div id="float-container">
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+            <div class="float-element"></div>
+   </div> 
+   <!--方法二-->
+   <div id="inline-block-container">
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+       <div class="inline-block-element"></div>
+   </div>
+</body>
+</html>
